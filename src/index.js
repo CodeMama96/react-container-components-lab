@@ -7,7 +7,7 @@ import SearchableMovieReviewsContainer from './components/SearchableMovieReviews
 ReactDOM.render(
   <div className="app">
     <SearchableMovieReviewsContainer />
-    <LatestMovieReviewsContainer />
+    <LatestMovieReviewsContainer handleClick={() => alert("clicked!")}/>
   </div>,
   document.getElementById('root')
 );
